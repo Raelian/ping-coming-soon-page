@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link rel="stylesheet" href="fa/css/all.css" type="text/css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin: 20px 0 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <div class="main__logo"></div>
+
+    <h1 class="main__title">We are launching <span>soon!</span></h1>
+
+    <p class="main__subscribe">Subscribe and get notified</p>
+
+    <form action="#" class="main__form">
+      <input
+        type="email" 
+        placeholder="Your email address"
+        class="main__email"
+        id="email"
+        aria-label="Your email here"
+        required
+      >
+      <p class="main__error-text main__error-text--hide">Please provide a valid email address</p>
+      <p class="main__error-text main__error-text--hide">Whoops! It looks like you forgot to add your email</p>
+      <button type="submit" class="main__notify">Notify Me</button>
+    </form>
+
+    <div class="main__illustration"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__share">
+      <a href="https://www.facebook.com/" target="_blank" class="footer__link" aria-label="Share on Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" class="footer__link" aria-label="Share on Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="footer__link" aria-label="Share on Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+
+    <p class="footer__copyright">&copy; Copyright Ping. All rights reserved.</p>
+
+    <div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        <br> 
+        Coded by <a href="https://www.frontendmentor.io/profile/Raelian">Rael</a>.
+      </p>
+    </div>
+  </footer>
+    
+  <script src="index.js"></script>
+</body>
+</html>
